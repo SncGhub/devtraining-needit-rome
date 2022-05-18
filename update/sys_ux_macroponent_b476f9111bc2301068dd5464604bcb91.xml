@@ -777,7 +777,38 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "e6af35d9dbb810106b3982c9689619e5",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "my_needit_app_rec_evam_dr",
+  "elementLabel" : "My NeedIt App Records EVAM DR",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamDefinitionId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "70abd92c2f1301107915bac62799b699"
+    },
+    "pageCursor" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "pageSize" : {
+      "type" : "JSON_LITERAL",
+      "value" : "9"
+    },
+    "pageNumber" : {
+      "type" : "JSON_LITERAL",
+      "value" : "0"
+    },
+    "filterPreference" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
         <dispatched_events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -826,13 +857,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-17 15:27:25</sys_created_on>
         <sys_id>b476f9111bc2301068dd5464604bcb91</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_b476f9111bc2301068dd5464604bcb91</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-17 19:40:23</sys_updated_on>
+        <sys_updated_on>2022-05-06 03:43:53</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
